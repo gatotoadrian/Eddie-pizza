@@ -13,6 +13,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: align;
+  color: chartreuse;
   /* padding: 20px; */
 }
 .header{
@@ -140,16 +141,16 @@ form h4{
 form textarea{
     width: 60%;
     margin: auto;
-@@ -137,6 +147,7 @@ footer{
+@@ -137,6 +147,7 @@ footer
     margin-top: 5px;
     font-family: 'Paprika', cursive !important;
 }
 
-/* form */                            <option value="7">crispy-thin</option>
+form                            <option value="7">crispy-thin</option>
                             <option value="8">extreme-cheese</option>
                             <option value="9">stuffed</option>
 
-@@ -147,12 +158,10 @@ input, textarea{
+@@ -147,12 +158,10 @@ input, textarea
 }
 div.inputs{
     display: flex; 
@@ -238,4 +239,7 @@ color: aliceblue;
 .total{
   color: azure;
   visibility: visible;
+}
+.contactdetails{
+  color: black;
 }
